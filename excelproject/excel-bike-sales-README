@@ -1,0 +1,35 @@
+# 🚴 Excel Dashboard – Bike Sales Analysis
+
+This project presents a clean and interactive dashboard built in Excel to analyze bike sales performance. The dataset includes customer and product information such as income, commute distance, product category, and purchase amounts.
+
+## 📊 Dashboard Highlights
+
+- The Relationship between Average Income and Bike Purchase Decision
+- Sales Breakdown by:
+  - Marital Status
+  - Region
+  - Education Level
+- Bike Purchase Pattern for Different Age Brackets
+- How Customers' Commute Distance Affects Bike Purchase Decision
+
+## 🧠 Key Business Questions Answered
+
+- Which regions generated the most revenue?
+- Are there purchasing trends based on customer gender or commute distance?
+- What's the relationship between income and bike purchases?
+
+## 📂 Files Included
+
+- [bike-sales.xlsx](./excel-bike-sales.xlsx) — Raw data + Dashboard in Excel
+- [excel-bike-sales-dashboard-preview](./excel-bike-sales-dashboard-preview.png) - Dashboard Preview
+
+
+## 🛠 Tools Used
+
+- Microsoft Excel
+  - PivotTables & PivotCharts
+  - Slicers
+  - Conditional Formatting
+  - Basic Data Cleaning
+
+---
