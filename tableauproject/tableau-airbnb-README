@@ -1,0 +1,35 @@
+# 🏠 Airbnb Data Visualization Dashboard – Tableau
+
+This project presents an interactive Tableau dashboard that explores Airbnb listings, pricing, availability, and host ratings across different neighborhoods and property types.
+
+👉 **[View the live dashboard here](https://public.tableau.com/app/profile/sarah.hanifa4756/viz/AirBnBFullProject_17532817758660/Dashboard1?publish=yes)**
+
+---
+
+## 📌 Dashboard Features
+
+- 💲 **Price Distribution** by room type and neighborhood
+- 📍 **Map of Listings** with filters by availability and price
+- ⭐ **Host Ratings & Reviews** for quality assessment
+- 📅 **Availability Calendar** for hosts
+- 🧭 **Neighborhood Comparison** using median price and listing count
+
+---
+
+## 🛠 Tools Used
+
+- [Tableau Public](https://public.tableau.com/)
+- Filters, parameters, calculated fields
+- Charts: maps, bar charts, KPI cards, scatter plots
+
+---
+
+## 💡 Key Insights
+
+- Entire homes have the highest median prices compared to private or shared rooms.
+- Manhattan and Brooklyn dominate the listings, with Manhattan having the highest average price.
+- Listings with higher availability generally have more reviews and better visibility.
+- Certain neighborhoods are hotspots for both premium and budget stays.
+
+---
+
