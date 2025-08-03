@@ -1,0 +1,62 @@
+# 🗃 SQL Project – Layoffs Data Analysis
+
+This project analyzes layoffs data across various companies, industries, and countries using SQL. The dataset includes company funding, layoffs count, date of layoffs, and more. The project is split into two phases: **data cleaning** and **exploratory data analysis (EDA)**.
+
+---
+
+## 🧹 Part 1: Data Cleaning
+
+Performed data preparation and cleaning tasks to make the dataset analysis-ready:
+
+- Removed duplicates using `ROW_NUMBER()` window function
+- Standardized fields (e.g. trimmed whitespace, cleaned inconsistent country and industry names)
+- Converted text dates into proper SQL `DATE` format
+- Filled missing values using self-joins
+- Deleted irrelevant rows with no layoff data
+- Created staging tables for safer transformations
+
+👉 See file: [`sql-layoffs-DATA-CLEANING.sql`](./sql-layoffs-data-cleaning.sql)
+
+---
+
+## 🔍 Part 2: Exploratory Data Analysis (EDA)
+
+Used SQL queries to uncover key insights, such as:
+
+- Top companies by total layoffs
+- Monthly layoff trends over time
+- Layoffs by country and industry
+- Rolling total of layoffs
+- Average percentage laid off by company
+- Top 5 companies with highest layoffs each year
+
+👉 See file: [`sql-layoffs-EXPLORATORY-DATA-ANALYSIS.sql`](./sql-layoffs-exploratory-data-analysis.sql)
+
+---
+
+## 📂 Files Included
+
+- [`sql-layoffs.csv`](./sql-layoffs.csv) — Original raw dataset
+- [`sql-layoffs-DATA-CLEANING.sql`](./sql-layoffs-data-cleaning.sql) — SQL cleaning scripts
+- [`sql-layoffs-EXPLORATORY-DATA-ANALYSIS.sql`](./sql-layoffs-exploratory-data-analysis.sql) — SQL exploratory queries
+
+---
+
+## 🛠 Tools Used
+
+- MySQL (compatible syntax)
+- SQL window functions
+- CTEs and subqueries
+- Date/time functions
+
+---
+
+## 💡 Key Insights
+
+- Some companies (like **Amazon**, **Meta**, and **Google**) laid off large numbers of employees in 2022–2023.
+- Layoffs peaked during mid-2022 across tech sectors.
+- **Startups and early-stage companies** were more vulnerable to layoffs.
+- Layoffs were globally distributed but **heaviest in the U.S.**
+
+---
+
