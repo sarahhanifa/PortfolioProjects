@@ -1,0 +1,47 @@
+# 📊 Power BI Dashboard – Data Professionals Survey Analysis
+
+This Power BI project analyzes responses from data professionals around the world. The survey covers salaries, job roles, tools used, satisfaction levels, and more.
+
+👉 **[View the interactive dashboard here](https://app.powerbi.com/groups/me/reports/1652b18e-421c-4d8b-9c96-d3998ef32564/c6462de46b28ed86a204?experience=power-bi)**
+
+---
+
+## 📌 Dashboard Overview
+
+- 🌍 Geographic breakdown of respondents
+- 💼 Roles and job titles in the data industry
+- 💰 Salary distribution by experience and role
+- ⚙️ Favorite programming language (Python, R, C++ etc.)
+- 😀 Job satisfaction levels in terms of work/life balance and salary
+
+---
+
+## 🧾 Dataset Information
+
+- **Source**: [Data Professionals Survey Dataset]  
+  *(uploaded version: `powerbi-data-professionals-survey-dataset.xlsx`)*
+- **Fields included**:  
+  - Country, Role, Tools Used, Salary (USD), Years of Experience, Company Size, Job Satisfaction
+
+---
+
+## 🛠 Tools Used
+
+- **Power Query** for data cleaning
+- **Power BI Desktop** for data modeling and visualization
+- DAX measures and calculated columns
+- Slicers, filters, KPI cards, bar and pie charts
+- Map visuals and clustered bar charts
+
+---
+
+## 💡 Key Insights
+
+- **Data Scientists** have the highest reported average salary among all job titles shown, followed by Data Engineers and Data Architects.
+- **Python** is the most popular programming language across roles, with a significant lead over R, SQL, and others.
+- The top countries of survey respondents are the **United States**, **India**, **Canada**, and the **United Kingdom**.
+- On average, respondents rated their **Work-Life Balance satisfaction at 5.74** out of 10 and **Salary satisfaction at 4.27**, indicating moderate satisfaction levels.
+- When asked about the **difficulty of breaking into the data field**, most respondents felt it was "Neither easy nor difficult", though nearly half found it at least somewhat challenging.
+
+---
+
